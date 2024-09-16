@@ -28,7 +28,7 @@
   
   ul li a {
     text-decoration: none; /* Elimina el subrayado de los enlaces */
-    color: rgb(255, 255, 255); /* Cambia el color del texto según el diseño */
+    color: black; /* Cambia el color del texto según el diseño */
   }
   
   ul li a:hover {
