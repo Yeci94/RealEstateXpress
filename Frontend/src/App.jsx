@@ -41,8 +41,6 @@ function App() {
     <button>hola</button>
     <h1>Hola yeci</h1>
     <button>hola</button>
-    <h1>Hola yeci</h1>
-    <button>hola</button>
     </>
   )
 }
