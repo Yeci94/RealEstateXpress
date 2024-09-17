@@ -1,37 +1,63 @@
-.nav-content {
-    /* width: 100vw; */
-    background-color: rgba(12, 12, 56, 0.849);
-    padding: 1rem; 
-    
-  }
-  
-  .elements {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Alinea verticalmente los elementos */
-  }
-  
-  .icon img {
-    display: block; /* Elimina el espacio blanco debajo de la imagen */
-  }
-  
-  ul {
-    list-style: none; /* Elimina los puntos de lista */
-    padding: 0;
+:root{
+  --color1: #FFC107;
+  --color2: #FFEB3B ;
+  --color3: #CC29E8;
+  --color4: #795548;
+  --color5: #4CAF50 ;
+  --color6: #B2FF59;
+  --color7: white;
+  --color8: black; 
+  body {
     margin: 0;
-    display: flex; /* Muestra los elementos de lista en fila */
+    font-family: roboto;
   }
   
-  ul li {
-    margin-left: 1rem; /* Espacio entre los elementos de lista */
+  nav {
+    background-color: rgba(33, 33, 33, 0.8); /* Oscuro y medio transparente */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
   }
   
-  ul li a {
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    color: rgb(255, 255, 255); /* Cambia el color del texto según el diseño */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
   }
   
-  ul li a:hover {
-    text-decoration: underline; /* Agrega un subrayado al pasar el mouse */
+  nav ul li {
+    margin: 0 20px;
   }
   
+  nav ul li a {
+    text-decoration: none;
+    color: var(--color4); /* Usamos el color4 */
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: var(--color4); /* Fondo al hacer hover */
+    color: white; /* Texto blanco */
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 100px 20px; /* Dejar espacio para el nav */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
