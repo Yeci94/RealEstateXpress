@@ -7,57 +7,116 @@
   --color6: #B2FF59;
   --color7: white;
   --color8: black; 
+}
   body {
-    margin: 0;
-    font-family: roboto;
-  }
-  
-  nav {
-    background-color: rgba(33, 33, 33, 0.8); /* Oscuro y medio transparente */
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    margin: 0 20px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: var(--color4); /* Usamos el color4 */
-    padding: 10px 20px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  nav ul li a:hover {
-    background-color: var(--color4); /* Fondo al hacer hover */
-    color: white; /* Texto blanco */
-    border-radius: 5px;
-  }
-  
-  section {
-    padding: 100px 20px; /* Dejar espacio para el nav */
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 3em;
-  }
-  
-  p {
-    font-size: 1.2em;
-  }
+  margin: 0;
+  font-family: roboto;
+}
+/* Estilos para la barra de navegación */
+.navbar {
+  background: #2c3e50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+/* Estilo para el botón navbar-toggler */
+.navbar-toggler {
+  background-color: white !important; /* Fondo blanco con !important */
+  color: #2980b9 !important; /* Color del texto */
+  border: 1px solid white !important; /* Borde con el color del texto */
+  padding: 10px !important; /* Espaciado interno */
+  border-radius: 5px !important; /* Bordes redondeados */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
+}
+
+.navbar-toggler:hover {
+  background-color: white !important; /* Fondo azul al pasar el ratón */
+  color: white !important; /* Color del texto al pasar el ratón */
+}
+.offcanvas-title{
+  color: white !important;
+}
+.offcanvas{
+  background: #2c3e50 !important;
+}
+.navbar-toggler:focus {
+  outline: none !important; /* Quitar el contorno en el enfoque */
+}
+
+.nav-link{
+  color: white !important;
+}
+
+/* Estilo para el ícono bonito y el texto SportVibes */
+.icono-bonito {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #ecf0f1;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-right: 10px; /* Espacio entre ícono y texto */
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+/* Estilo para el botón Conócenos */
+.btn-conocenos {
+  background-color: transparent; /* Fondo transparente */
+  color: #2980b9; /* Color del texto */
+  border: 2px solid #2980b9; /* Borde con el mismo color que el texto */
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 10px; /* Espaciado alrededor del botón */
+  cursor: pointer;
+  border-radius: 5px;
+  background: #2c3e50 !important;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+.btn-conocenos:hover {
+  background-color: #2980b9; /* Fondo azul al pasar el ratón */
+  color: white; /* Color del texto al pasar el ratón */
+  transform: scale(1.05); /* Efecto de aumento */
+}
+
+.btn-conocenos:active {
+  background-color: #2980b9; /* Fondo azul al hacer clic */
+  color: white; /* Color del texto al hacer clic */
+  transform: scale(1); /* Sin aumento */
+}
+
+/* Estilo para el ícono del carrito */
+.icono-cart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 30px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 10px; /* Espacio entre carrito e ícono desplegable */
+}
+
+.icono-cart:hover {
+  background-color: #2980b9;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icono-cart:active {
+  background-color: #2980b9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}

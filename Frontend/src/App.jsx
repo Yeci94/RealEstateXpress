@@ -2,7 +2,7 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
-import {Nav} from "./views/utils/Nav/Nav"
+import Nav from "./views/utils/Nav/Nav"
 
 
 function App() {
