@@ -29,7 +29,7 @@ function Footer() {
 
         {/* Sección de Redes Sociales y Promociones */}
         <div className="footer-section">
-          <h3>Síguenos en Redes Sociales</h3>
+          <h3>Síguenos en Refdes Sociales</h3>
           <p>Síguenos para recibir las últimas promociones y novedades:</p>
           <ul className="social-icons">
             <li><a href="#"><FaFacebook /></a></li>
