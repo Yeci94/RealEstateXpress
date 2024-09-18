@@ -1,122 +1,85 @@
-:root{
+:root {
   --color1: #FFC107;
-  --color2: #FFEB3B ;
+  --color2: #FFEB3B;
   --color3: #CC29E8;
   --color4: #795548;
-  --color5: #4CAF50 ;
+  --color5: #4CAF50;
   --color6: #B2FF59;
   --color7: white;
-  --color8: black; 
+  --color8: black;
 }
-  body {
+
+body {
   margin: 0;
-  font-family: roboto;
+  font-family: Roboto;
 }
-/* Estilos para la barra de navegación */
+
 .navbar {
-  background: #2c3e50;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px;
-}
-/* Estilo para el botón navbar-toggler */
-.navbar-toggler {
-  background-color: white !important; /* Fondo blanco con !important */
-  color: #2980b9 !important; /* Color del texto */
-  border: 1px solid white !important; /* Borde con el color del texto */
-  padding: 10px !important; /* Espaciado interno */
-  border-radius: 5px !important; /* Bordes redondeados */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves */
-}
-
-.navbar-toggler:hover {
-  background-color: white !important; /* Fondo azul al pasar el ratón */
-  color: white !important; /* Color del texto al pasar el ratón */
-}
-.offcanvas-title{
-  color: white !important;
-}
-.offcanvas{
-  background: #2c3e50 !important;
-}
-.navbar-toggler:focus {
-  outline: none !important; /* Quitar el contorno en el enfoque */
-}
-
-.nav-link{
-  color: white !important;
-}
-
-/* Estilo para el ícono bonito y el texto SportVibes */
-.icono-bonito {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  font-size: 1.5rem;
-  color: #ffffff;
-  background-color: #ecf0f1;
-  border-radius: 50%;
+  padding: 10px 15px;
+  background-color: rgba(33, 33, 33, 0.8);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  margin-right: 10px; /* Espacio entre ícono y texto */
+  z-index: 1000;
 }
 
-.navbar-brand {
-  color: white !important;
+.contenedor-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-/* Estilo para el botón Conócenos */
-.btn-conocenos {
-  background-color: transparent; /* Fondo transparente */
-  color: #2980b9; /* Color del texto */
-  border: 2px solid #2980b9; /* Borde con el mismo color que el texto */
-  padding: 5px 20px;
-  text-align: center;
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-Blanco {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  padding: 5px;
+  margin-right: 15px; /* Espacio entre el logo y el texto */
+  background: var(--color5);
+  object-fit: cover;
+}
+
+.navbar-texto {
+  color: var(--color7);
+  font-size: 1.5rem;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 0 10px; /* Espaciado alrededor del botón */
-  cursor: pointer;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-button {
+  background-color: var(--color5);
+  color: var(--color7);
+  border: 2px solid var(--color5);
   border-radius: 5px;
-  background: #2c3e50 !important;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.btn-conocenos:hover {
-  background-color: #2980b9; /* Fondo azul al pasar el ratón */
-  color: white; /* Color del texto al pasar el ratón */
-  transform: scale(1.05); /* Efecto de aumento */
-}
-
-.btn-conocenos:active {
-  background-color: #2980b9; /* Fondo azul al hacer clic */
-  color: white; /* Color del texto al hacer clic */
-  transform: scale(1); /* Sin aumento */
-}
-
-/* Estilo para el ícono del carrito */
-.icono-cart {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 30px;
-  font-size: 1.5rem;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  margin-left: 10px; /* Espacio entre carrito e ícono desplegable */
-}
-
-.icono-cart:hover {
-  background-color: #2980b9;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-}
-
-.icono-cart:active {
-  background-color: #2980b9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+.nav-button:hover {
+  background-color: var(--color6);
+  color: var(--color8);
 }
