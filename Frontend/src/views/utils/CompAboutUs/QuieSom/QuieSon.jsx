@@ -1,8 +1,3 @@
-
-import imagen1 from '../../../../assets/img/1.jpg';
-import imagen5 from '../../../../assets/img/5.jpg';
-import imagen3 from '../../../../assets/img/3.jpg';
-import imagen4 from '../../../../assets/img/4.jpg';
 import './QuieSon.css';
 
 export function QuieSon() {
@@ -22,16 +17,16 @@ export function QuieSon() {
                         <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src={imagen1} className="d-block w-100" alt="Propiedad 1" />
+                                    <img src="Img/1.jpg" className="d-block w-100" alt="Propiedad 1" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={imagen5} className="d-block w-100" alt="Propiedad 2" />
+                                    <img src="Img/5.jpg" className="d-block w-100" alt="Propiedad 2" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={imagen3} className="d-block w-100" alt="Propiedad 3" />
+                                    <img src="Img/3.jpg" className="d-block w-100" alt="Propiedad 3" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={imagen4} className="d-block w-100" alt="Propiedad 3" />
+                                    <img src="Img/4.jpg" className="d-block w-100" alt="Propiedad 3" />
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
