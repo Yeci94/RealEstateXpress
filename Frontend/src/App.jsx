@@ -2,17 +2,17 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
-import {Nav} from "./views/utils/Nav/Nav"
+import Integrantes from "./views/utils/CompAboutUs/Integrantes/Integrantes"
+import Valores from "./views/utils/CompAboutUs/Valores/Valores"
 
 
 function App() {
-
-
   return (
     <>
-  <Nav/>
-    <h1>Hola yeci</h1>
-    <button>hola</button>
+    <Integrantes />
+    <br />    <br />
+    <Valores />
+    <br /><br />
     </>
   )
 }
