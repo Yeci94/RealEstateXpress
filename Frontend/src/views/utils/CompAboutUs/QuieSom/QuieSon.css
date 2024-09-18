@@ -4,3 +4,18 @@
     object-fit: cover;    /* Recorte la imagen para llenar el contenedor sin distorsionarla */
     border-radius: 10px;  /*  Redondie los bordes de las imágenes */
   }
+  #carouselExample {
+    border: 2px solid #ddd; /* Cambié el color y el grosor del borde */
+    border-radius: 17px;    /* Aumenté el radio del borde para bordes más redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadí una sombra para darle profundidad */
+    overflow: hidden;       /* Asegura que el contenido se ajuste dentro del borde redondeado */
+  }
+  
+  #carouselExample .carousel-inner {
+    border-radius: 15px;    /* Asegura que el contenido interno también tenga bordes redondeados */
+  }
+  
+  #carouselExample .carousel-item img {
+    border-radius: 15px;    /* Aplica bordes redondeados a las imágenes */
+  }
+  

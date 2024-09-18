@@ -2,7 +2,7 @@ import "./QuieSon.css";
 
 function QuieSon() {
   return (
-    <section className="about-us py-5 bg-light">
+    <section className="about-us py-5">
       <div className="container">
         <h2 className="text-center mb-4">Acerca de Nosotros</h2>
         <div className="row align-items-center">

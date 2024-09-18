@@ -2,13 +2,19 @@
 .misvis-image {
   width: 100%;
   overflow: hidden;
+  position: relative; /* Asegura que cualquier contenido adicional se ajuste correctamente */
+  border-radius: 10px; /* Añade bordes redondeados a la imagen */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra suave para un efecto de profundidad */
 }
 
 .misvis-image img {
   width: 100%;
-  height: auto; /* Mantiene la relación de aspecto de la imagen */
-  display: block; /* Elimina el espacio debajo de la imagen */
+  height: 100%; /* Hace que la imagen cubra el contenedor */
+  object-fit: cover; /* Mantiene la proporción de la imagen y cubre el contenedor sin distorsionarla */
+  display: block;
+  border-radius: 10px; /* Asegura que los bordes redondeados se apliquen también a la imagen */
 }
+
 
 .misvis-columns {
   display: flex;

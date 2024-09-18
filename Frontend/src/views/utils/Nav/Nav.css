@@ -42,8 +42,8 @@ body {
 }
 
 .logo-Blanco {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: block;
   padding: 5px;
@@ -83,4 +83,12 @@ body {
 .nav-button:hover {
   background-color: var(--color6);
   color: var(--color8);
+}
+.navbar {
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Transiciones suaves */
+}
+
+.navbar.hidden {
+  transform: translateY(-100%); /* Esconde la navbar moviéndola hacia arriba */
+  opacity: 0; /* Opcional: Ajusta la opacidad para un efecto más suave */
 }

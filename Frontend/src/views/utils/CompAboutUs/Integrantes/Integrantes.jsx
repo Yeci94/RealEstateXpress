@@ -5,7 +5,7 @@ const Integrantes = () => {
   return (
     <div class="container-fluid">
       <div class="text-center">
-        <h2><strong>Integrantes de RealEstateXpress</strong></h2>
+        <h2 class="text"><strong>Integrantes de RealEstateXpress</strong></h2>
       </div>
       <br />
       <div class="row">
