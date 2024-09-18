@@ -77,7 +77,7 @@ body {
   border-radius: 5px;
   padding: 8px 8px;
   text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .nav-button:hover {
@@ -85,10 +85,10 @@ body {
   color: var(--color8);
 }
 .navbar {
-  transition: transform 0.3s ease, opacity 0.3s ease; /* Transiciones suaves */
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Transiciones suaves */
 }
 
 .navbar.hidden {
   transform: translateY(-100%); /* Esconde la navbar moviéndola hacia arriba */
-  opacity: 0; /* Opcional: Ajusta la opacidad para un efecto más suave */
+  opacity: 0; 
 }

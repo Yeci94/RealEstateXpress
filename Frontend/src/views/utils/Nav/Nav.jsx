@@ -16,7 +16,7 @@ function Nav() {
       setScrolling(true); // Muestra la navbar cuando se detecta el scroll
       setIsScrolling(true); // Marca que se está scrollando
 
-      // Oculta la navbar después de 500 ms de inactividad en el scroll
+      // Oculta la navbar
       const newTimeout = setTimeout(() => {
         setScrolling(false);
         setIsScrolling(false);
