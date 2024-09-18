@@ -1,0 +1,37 @@
+/* MisVis.css */
+.misvis-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.misvis-image img {
+  width: 100%;
+  height: auto; /* Mantiene la relación de aspecto de la imagen */
+  display: block; /* Elimina el espacio debajo de la imagen */
+}
+
+.misvis-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Espacio entre las columnas, ajusta si es necesario */
+  padding: 20px; /* Padding para añadir espacio alrededor del contenido */
+}
+
+.misvis-column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+.misvis-column h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #000000;
+}
+
+.misvis-column p {
+  text-align: justify;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
