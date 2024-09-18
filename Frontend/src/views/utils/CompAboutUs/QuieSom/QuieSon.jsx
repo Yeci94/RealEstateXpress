@@ -1,6 +1,6 @@
 import './QuieSon.css';
 
-export function QuieSon() {
+function QuieSon() {
     return (
         <section className="about-us py-5 bg-light">
             <div className="container">
@@ -45,3 +45,4 @@ export function QuieSon() {
 
     );
 }
+export default QuieSon;
