@@ -1,6 +1,6 @@
 
 import imagen1 from '../../../../assets/img/1.jpg';
-import imagen2 from '../../../../assets/img/2.jpg';
+import imagen5 from '../../../../assets/img/5.jpg';
 import imagen3 from '../../../../assets/img/3.jpg';
 import imagen4 from '../../../../assets/img/4.jpg';
 import './QuieSon.css';
@@ -25,7 +25,7 @@ export function QuieSon() {
                                     <img src={imagen1} className="d-block w-100" alt="Propiedad 1" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={imagen2} className="d-block w-100" alt="Propiedad 2" />
+                                    <img src={imagen5} className="d-block w-100" alt="Propiedad 2" />
                                 </div>
                                 <div className="carousel-item">
                                     <img src={imagen3} className="d-block w-100" alt="Propiedad 3" />
