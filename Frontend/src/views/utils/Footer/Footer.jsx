@@ -21,9 +21,9 @@ function Footer() {
         <div className="footer-section">
           <h3>Contacto</h3>
           <ul>
-            <li><FaEnvelope /> Diana Rodriguez: <a href="mailto:DianaRo@proyecto.com">DianaRo@proyecto.com</a> | <FaPhone /> +123 456 789</li>
-            <li><FaEnvelope /> Nicole Gicel: <a href="mailto:NicoleCorte@proyecto.com">NicoleCorte@proyecto.com</a> | <FaPhone /> +123 456 789</li>
-            <li><FaEnvelope /> Xiomara Sanchez: <a href="mailto:Xiomara_sa@proyecto.com">Xiomara_sa@proyecto.com</a> | <FaPhone /> +123 456 789</li>
+            <li><FaEnvelope /> h: <a href="mailto:DianaRo@proyecto.com">DianaRo@proyecto.com</a> | <FaPhone /> +123 456 789</li>
+            <li><FaEnvelope /> h: <a href="mailto:@proyecto.com">@proyecto.com</a> | <FaPhone /> +123 456 789</li>
+            <li><FaEnvelope /> h: <a href="mailto:@proyecto.com">@proyecto.com</a> | <FaPhone /> +123 456 789</li>
           </ul>
         </div>
 
