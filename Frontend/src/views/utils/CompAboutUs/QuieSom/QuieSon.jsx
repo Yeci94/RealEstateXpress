@@ -7,7 +7,7 @@ function QuieSon() {
         <h2 className="text-center mb-4">Acerca de Nosotros</h2>
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h4>¿Quiénes Somos?</h4>
+            <h4 class="tittle-general">¿Quiénes Somos?</h4>
             <p>
               Somos un equipo dedicado a transformar la manera en que se
               adquieren terrenos en florida, creemos que invertir en bienes

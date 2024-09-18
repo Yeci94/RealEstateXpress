@@ -3,7 +3,7 @@ import { FaUser, FaInfoCircle, FaBoxOpen, FaEnvelope } from 'react-icons/fa';
 
 function Nav() {
   return (
-    <nav className="navbar">
+    <nav className="navbar fixed-top" > 
       <div className="contenedor-nav">
         <div className="logo-container">
           <img src="/Img/logoBlanco.png" alt="Logo" className="logo-Blanco" />
