@@ -1,3 +1,4 @@
+
 :root {
   --color1: #FFC107;
   --color2: #FFEB3B;
@@ -11,14 +12,13 @@
 
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
   background-color: rgba(33, 33, 33, 0.8);
   position: fixed;
   width: 100%;
@@ -29,6 +29,7 @@ body {
 }
 
 .contenedor-nav {
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,16 +71,16 @@ body {
 }
 
 .nav-button {
-  background-color: var(--color1);
+  background-color: var(--color5);
   color: var(--color7);
-  border: 2px solid var(--color1);
+  border: 2px solid var(--color5);
   border-radius: 5px;
-  padding: 8px 16px;
+  padding: 8px 8px;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-button:hover {
-  background-color: var(--color2);
+  background-color: var(--color6);
   color: var(--color8);
 }
