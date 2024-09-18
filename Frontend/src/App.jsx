@@ -1,29 +1,23 @@
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
+//import viteLogo from '/vite.svg'
 import './App.css'
-import QuieSon from './views/utils/CompAboutUs/QuieSom/QuieSon';
-import Footer from './views/utils/Footer/Footer'
 import Nav from "./views/utils/Nav/Nav"
-import MisVis from "./views/utils/CompAboutUs/MisVis/MisVis"
-import Valores from "./views/utils/CompAboutUs/Valores/Valores"
-import Integrantes from './views/utils/CompAboutUs/Integrantes/Integrantes';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Footer from "./views/utils/Footer/Footer"
+import Contacto from "./views/Contacto/Contacto"
 
 function App() {
-
   return (
     <>
-      <Nav/>
-      <div class="contenedor-app">
-      <QuieSon/>
-      <MisVis/>
-      <Valores/>
-      <br></br>
-      <br></br>
-      <Integrantes/>
-      <Footer/>
-      </div>
+    <Nav />
+    <div>
+    <br /><br /><b><br /><br /><br /><br /><br /><br /></b>
+    <Contacto />
+    <br /><br /><b><br /><br /><br /><br /><br /><br /></b>
+    <Footer />
+    </div>
     </>
   )
 }
 
-export default App;
+export default App
