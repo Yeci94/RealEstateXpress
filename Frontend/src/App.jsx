@@ -4,7 +4,7 @@ import AboutUs from "./views/AboutUs/AboutUs";
 function App() {
   return (
     <>
-      <AboutUs />
+      <AboutUs/>
     </>
   );
 }
