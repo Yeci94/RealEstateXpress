@@ -3,9 +3,11 @@ import {BrowserRouter as Router,Route,Routes,useNavigate,} from "react-router-do
 import Inicio from "./views/Inicio/Inicio";
 import AboutUs from './views/AboutUs/AboutUs'
 
+
 function App() {
   return (
     <>
+
       <Router>
         <Routes>
           <Route path="/" element={<Inicio/>}/>
@@ -16,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

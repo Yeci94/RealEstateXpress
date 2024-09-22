@@ -1,3 +1,18 @@
 .contenedor-app{
     margin-top: 120px ;
 }
+
+.button {
+    background-color: var(--color5);
+    color: var(--color7);
+    border: 2px solid var(--color5);
+    border-radius: 5px;
+    padding: 8px 8px;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+.button:hover {
+    background-color: var(--color6);
+    color: var(--color8);
+  }
