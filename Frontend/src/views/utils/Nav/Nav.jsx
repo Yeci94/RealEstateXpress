@@ -59,7 +59,7 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a href="#about" className="nav-button">
+            <a href="/AboutUS" className="nav-button">
               <FaInfoCircle /> Conócenos
             </a>
           </li>
