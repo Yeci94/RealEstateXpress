@@ -30,7 +30,15 @@ function ContactForm() {
                 </form>
             </div>
             <div className="col-md-6 col-sm-12 mb-4">
-                <h3>aqui va la informacion</h3>
+              <h3><b>Información de contacto</b></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul className="list-unstyled">
+                  <li><i className="bi bi-telephone-fill"></i> +1 910-626-8523</li>
+                  <li><i className="bi bi-geo-alt-fill"></i> 123 Fifth Ave, New York, NY 10160</li>
+                  <li><i className="bi bi-envelope-fill"></i> contact@hello.com</li>
+                </ul>
+        <h3>Redes Sociales</h3>
+        <p><i className="bi bi-facebook"></i> <i className="bi bi-x"></i> <i className="bi bi-tiktok"></i></p>
             </div>
         </div>
     </div>
