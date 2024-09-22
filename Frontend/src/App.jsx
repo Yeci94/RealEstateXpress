@@ -10,12 +10,11 @@ function App() {
   return (
     <>
     <Nav />
-    <div>
-    <br /><br /><b><br /><br /><br /><br /><br /><br /></b>
+    <div className='contenedor-app'>
     <Contacto />
-    <br /><br /><b><br /><br /><br /><br /><br /><br /></b>
-    <Footer />
     </div>
+    <Footer />
+    
     </>
   );
 }
