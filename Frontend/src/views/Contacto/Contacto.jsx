@@ -1,17 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import "./Contacto.css";
 import "../../App.css";
+import Nav from "../utils/Nav/Nav";
+import Footer from "../utils/Footer/Footer";
+import { toast } from 'react-toastify';
 
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("mvgpjpjk");
-
+  const [submit, setSubmit] = useState(null);
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    toast.success('¡Gracias por contactarnos!');
   }
 
   return (
+    <>
+    <Nav/>
+    <div className="contenedor-app">
     <div className="container-fluid"> 
       <div className="row">
         <div className="text-center">
@@ -112,11 +118,10 @@ function ContactForm() {
         <div className="col-md-2 col-sm-12 mb-4"></div>
       </div>
     </div>
+    </div>
+    <Footer/>
+    </>
   );
 }
 
-function App() {
-  return <ContactForm />;
-}
-
-export default App;
+export default ContactForm;
