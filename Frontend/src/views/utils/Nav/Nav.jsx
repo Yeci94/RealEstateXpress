@@ -48,7 +48,7 @@ function Nav() {
       <div className="contenedor-nav">
         <div className="logo-container">
           <img src="/Img/logoBlanco.png" alt="Logo" className="logo-Blanco" />
-          <a className="navbar-texto" href="#">
+          <a className="navbar-texto" href="/">
             Real Estate Xpress
           </a>
         </div>
@@ -59,7 +59,7 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a href="#about" className="nav-button">
+            <a href="/AboutUS" className="nav-button">
               <FaInfoCircle /> Conócenos
             </a>
           </li>
@@ -69,7 +69,7 @@ function Nav() {
             </a>
           </li>
           <li>
-            <a href="#contact" className="nav-button">
+            <a href="/Contacto" className="nav-button">
               <FaEnvelope /> Contáctanos
             </a>
           </li>

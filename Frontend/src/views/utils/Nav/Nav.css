@@ -84,6 +84,7 @@ body {
   background-color: var(--color6);
   color: var(--color8);
 }
+
 .navbar {
   transition: transform 0.5s ease, opacity 0.5s ease; /* Transiciones suaves */
 }
