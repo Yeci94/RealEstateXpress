@@ -7,14 +7,14 @@ function QuieSon() {
         <h2 className="text-center mb-4">Acerca de Nosotros</h2>
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h4 class="tittle-general">¿Quiénes Somos?</h4>
+            <h4>¿Quiénes Somos?</h4>
             <p>
               Somos un equipo dedicado a transformar la manera en que se
               adquieren terrenos en florida, creemos que invertir en bienes
               raíces debe ser un proceso sencillo, seguro y accesible. Por eso,
               desarrollamos una plataforma intuitiva y novedosa donde nuestros
               clientes compren 100% online. Facilitando todo el proceso desde la
-              selección del terreno hasta la recepción de la propiedad.
+              selección del terreno hasta la recepción de la propiedad.
             </p>
           </div>
           <div className="col-md-6">
