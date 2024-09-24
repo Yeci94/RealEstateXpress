@@ -1,20 +1,22 @@
-//import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
-import './App.css'
-import Nav from "./views/utils/Nav/Nav"
-import Footer from "./views/utils/Footer/Footer"
-import Contacto from "./views/Contacto/Contacto"
+import "./App.css";
+import {BrowserRouter as Router,Route,Routes,useNavigate,} from "react-router-dom";
+import Inicio from "./views/Inicio/Inicio";
+import AboutUs from './views/AboutUs/AboutUs'
+import Contacto from './views/Contacto/Contacto'
 
+import { ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <>
-    <Nav />
-    <div className='contenedor-app'>
-    <Contacto />
-    </div>
-    <Footer />
-    
+      <ToastContainer/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Inicio/>}/>
+          <Route path="/AboutUs" element={<AboutUs/>}/>
+          <Route path="/Contacto" element={<Contacto/>}/> 
+        </Routes>
+      </Router>
     </>
   );
 }
